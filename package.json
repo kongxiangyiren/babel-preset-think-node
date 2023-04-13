@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-think-node",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "babel preset for ThinkJS",
   "main": "index.js",
   "scripts": {
@@ -32,15 +32,15 @@
   },
   "homepage": "https://github.com/thinkjs/babel-preset-think-node#readme",
   "dependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/helper-plugin-utils": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
-    "core-js": "2",
+    "@babel/core": "^7.21.4",
+    "@babel/helper-plugin-utils": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/runtime": "^7.21.0",
+    "core-js": "3",
     "deep-extend": "^0.6.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.21.4"
   }
 }
