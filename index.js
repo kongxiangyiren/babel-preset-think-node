@@ -9,7 +9,7 @@ module.exports = declare((api, options) => {
     modules: 'auto',
     debug: false,
     useBuiltIns: 'usage',
-    corejs: 2,
+    corejs: 3,
   }
 
   return {
